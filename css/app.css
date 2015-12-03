@@ -1,0 +1,9 @@
+.page .content .inner { padding: 0; }
+
+.title-top h3 { font-size: 48px; margin: 50px 0 40px; }
+	.title-top h3 span { font-size: 18px; }
+
+.box { padding: 5%; }
+.box:after { display: none; }
+	.box-img-left .img-cont { margin-right: 5%; }
+	.box p { font-size: 18px; line-height: 1.4; }
