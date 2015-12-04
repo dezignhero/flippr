@@ -1,7 +1,7 @@
 @import url('normalize.css');
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { font-family: 'Open Sans Condensed','Arial Narrow', serif; background: #ddd url(../images/fabric_plaid.png) repeat top left; font-weight: 400; font-size: 15px; color: #444; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; font-smoothing: antialiased; margin: 0; overflow: hidden; }
+body { font-family: 'Open Sans Condensed','Arial Narrow', serif; background: #ddd url(../images/fabric_plaid.png) repeat top left; font-weight: 400; font-size: 15px; color: #222; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; font-smoothing: antialiased; margin: 0; overflow: hidden; }
 
 a { color: #2786c2; text-decoration: none; }
 
@@ -23,6 +23,9 @@ a { color: #2786c2; text-decoration: none; }
 .page.cover .tile.w2  { width: 50%; height: 50%; }
 .page.cover .tile.w4 { width: 25%; height: 25%; }
 
+button { margin: 0 auto; display: block; background: #000 url('http://static.society6.com/preprod/images/icons/cart-24b.png') 30px 13px no-repeat; font-size: 20px; padding: 8px 40px 8px 60px; border: none; border-radius: 5px; color: #fff; height: 48px; text-transform: uppercase; cursor: pointer; }
+button:hover { background-color: #333; } 
+
 /* .page.cover .tile { border: 1px solid rgba(0,0,0,0.5); border-width: 0 1px 1px 0; } */
 
 .title-top h3 { font-size: 48px; margin: 50px 0 40px; }
@@ -30,6 +33,8 @@ a { color: #2786c2; text-decoration: none; }
 
 .box { padding: 5%; }
 .box:after { display: none; }
+.box.bg { background-size: cover !important; }
+.box.bg1 { background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://society6.com/rest/asset/3938876?type=0&signature=df2f45d4d779102835614710025288b7da5c3a11') center !important; }
 	.box p { font-size: 18px; line-height: 1.4; }
 	.box-img-left .img-cont { margin-right: 5%; }
 	.box-img-right .img-cont { margin-left: 5%; }
